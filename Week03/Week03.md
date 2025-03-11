@@ -2,7 +2,7 @@
 
 >本週應用了課程大綱進度中的 **HTML** , **CSS** 以及 **JavaScript** 語言( **JavaScript** 來不及上到但第一堂課的大綱有)，結合一些較後面才會上到的主題與一些課外延伸知識，建構出一個網頁版的 **「教學輔助AI聊天機器人」** ，旨在輔助教學者進行出題、批改、課程內容設計等工作，目前能支援5種科目與4種教學相關輔助功能。 AI 方面串接 **Gemini API**，實測 **Gemini-1.5-flash** 以上版本皆能在任務中有很好的表現。  
 
-- 使用設置：需先在  **./assets/js** 資料夾下新增檔案 **config.js**，並在其中附上 **Gemini API key**。完成 **API** 設定後便能透過瀏覽器打開 **./index.html** 以啟用教學輔助聊天機器人。<br><br>**config.js** 的 **Gemini API key**設定格式如下：<br>
+- 使用設置：需先在  **./assets/js** 資料夾下新增檔案 **config.js**，並在其中附上 **Gemini API key**。完成 **API** 設定後便能透過瀏覽器打開 **./pages/index.html** 以啟用教學輔助聊天機器人。<br><br>**config.js** 的 **Gemini API key**設定格式如下：<br>
     ```js
     const CONFIG = {
         GEMINI_API_KEY: "YOUR_GEMINI_API_KEY"
