@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduAssist</title>
+    <link rel="stylesheet" href="../assets/css/chat.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- 選單按鈕區塊 -->
+      <div class="menu">
+        <button class="active" data-index="0">General</button>
+        <button data-index="1">Quiz</button>
+        <button data-index="2">Grading</button>
+        <button data-index="3">Lesson</button>
+        <div class="slider"></div>
+      </div>
+
+      <!-- 初始界面 -->
+      <div class="initial-interface">
+        <h1 id="dynamic-title">How can we <span>assist</span> you today?</h1>
+        <p>
+          Get expert guidance powered by AI agents specializing in different
+          functions. Choose the agent that suits your needs and start your
+          conversation with ease.
+        </p>
+
+        <div class="cards">
+          <div class="card">
+            <h2>Quiz Generator</h2>
+            <p>
+              Generates questions like multiple-choice and fill-in-the-blank,
+              along with answers.
+            </p>
+          </div>
+          <div class="card">
+            <h2>Lesson Generator</h2>
+            <p>
+              Generates customized lessons, including definitions, examples, and
+              problems.
+            </p>
+          </div>
+          <div class="card">
+            <h2>Grading Assistant</h2>
+            <p>
+              Grades assignments with step-by-step feedback and suggestions for
+              improvement.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 聊天界面 -->
+      <div class="chat-container">
+        <!-- 訊息將在 JavaScript 中動態添加 -->
+      </div>
+
+      <div class="input-container">
+        <input type="text" placeholder="Type your query here..." />
+        <button><div class="arrow-icon"></div></button>
+      </div>
+    </div>
+    <script src="../assets/js/config.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="../assets/js/chat.js" defer></script>
+  </body>
+</html>

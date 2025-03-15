@@ -1,0 +1,16 @@
+.env                 # 放 API KEY 或其他敏感資訊
+*.env                # 其他可能額外產生的環境變數檔
+assets/js/config.js
+
+.DS_Store            # macOS 系統檔案
+Thumbs.db           # Windows 預覽縮圖檔案
+.vscode/            # VSCode 編輯器專案設定
+.idea/              # JetBrains 編輯器專案設定
+
+*.log
+temp/
+*.tmp
+
+node_modules/        # node.js 套件
+dist/                # 打包檔案
+build/               # 編譯輸出
