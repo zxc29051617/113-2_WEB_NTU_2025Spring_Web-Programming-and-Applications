@@ -14,3 +14,4 @@ temp/
 node_modules/        # node.js 套件
 dist/                # 打包檔案
 build/               # 編譯輸出
+.qodo
