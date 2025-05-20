@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "喫享咖啡館",
+    "address": "台北市大安區復興南路二段9號",
+    "phone": "02-1234-5678",
+    "hours": "11:00–20:00",
+    "policies": ["Pet Friendly"],
+    "paymentMethods": ["Cash", "Credit Card", "LINE Pay"],
+    "facilities": ["Toilets", "Socket", "Wi-Fi"],
+    "imageUrl": "https://example.com/images/cafe001.jpg"
+  },
+  {
+    "id": 2,
+    "name": "星巴克 大安門市",
+    "address": "台北市信義區信義路五段7號",
+    "phone": "02-2345-6789",
+    "hours": "07:00–22:00",
+    "policies": ["LGBTQ+ friendly"],
+    "paymentMethods": ["Credit Card", "Apple Pay"],
+    "facilities": ["Toilets", "Wi-Fi"],
+    "imageUrl": "https://example.com/images/cafe002.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Louisa Coffee",
+    "address": "台北市信義區菸廠路88號",
+    "phone": "02-3456-7890",
+    "hours": "10:00–21:30",
+    "policies": ["LGBTQ+ friendly", "Pet Friendly"],
+    "paymentMethods": ["Cash", "Credit Card"],
+    "facilities": ["Wi-Fi"],
+    "imageUrl": "https://example.com/images/cafe003.jpg"
+  }
+]
