@@ -1,7 +1,7 @@
 # NTU Web Programming and Applications 2025 Spring
 
 這個 repository 收錄臺大 113-2 Web 程式設計與應用課程第 25 組的每週作業報告，以及期末專題的前期版本。
-期末專題 Coffee Seeker 在 [Web-Programming-Team25-CoffeeSeeker](https://github.com/zxc29051617/Web-Programming-Team25-CoffeeSeeker)。
+期末專題 Coffee Seeker 在另一個 repository：Web-Programming-Team25-CoffeeSeeker（🔒 私人）。
 
 組員：[yuting1008](https://github.com/yuting1008)、[bestmark520](https://github.com/bestmark520)、[RickyChiang2003](https://github.com/RickyChiang2003)、[LiuJyun](https://github.com/LiuJyun)、[Vegnics](https://github.com/Vegnics)、[zxc29051617](https://github.com/zxc29051617)
 
